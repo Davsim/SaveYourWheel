@@ -45,7 +45,7 @@
                         ini_set('display_startup_errors',1);
                         error_reporting(-1);
 
-                        $connect = mysqli_connect("localhost", "ms_0124000863", "31172", "ms2_0124000863") or die('Could not connect:' . mysqli_error($connect));
+                        $connect = mysqli_connect("localhost", "ms_***********", "*****", "ms2_**********") or die('Could not connect:' . mysqli_error($connect));
                         $query = "select * from Data";
                         $result = mysqli_query($connect, $query) or die('Could not query:' . mysql_error($connect));
 

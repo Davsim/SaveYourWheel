@@ -84,33 +84,31 @@
         </div>
     </div>
     <!-- Split button -->
-
-    <nav class="navbar navbar-default navbar-inverse dropup" style="border:none; position:relative; top:50px; min-height: 93px; margin-bottom:0; padding-bottom:0; border-radius: 0px 3px;">
-        <div class="container-fluid">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar" style="position:relative; z-index:0; width:300px;">
-              <ul class="nav navbar-nav">
-                <li class="dropup">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Filters<span class="caret"></span></a>
-                  <ul class="dropdown-menu toggle" role="menu-toggle">
-                    <li><a href="#">1 - 4 Intensity</a></li>
-                    <li><a href="#">4 - 8 Intensity</a></li>
-                    <li><a href="#">8 - 10 Intensity</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!-- /.navbar -->
-            <div class="col-md-12" align="center" style=" width: 100%; height:50px; position:relative; top:-40px; margin-bottom:-40px; z-index:1; padding:0px;">
-                <ul class="social-network social-circle">
-                    <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"><img src="Image/Rss-icon.png" height="100%" width="100%"></i></a></li>
-                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"><img src="Image/Facebook-icon.png" height="100%" width="100%"></i></a></li>
-                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"><img src="Image/Twitter-icon.png" height="100%" width="100%"></i></a></li>
-                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"><img src="Image/Google-Plus-icon.png" height="100%" width="100%"></i></a></li>
-                    <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"><img src="Image/Linkedin-icon.png" height="100%" width="100%"></i></a></li>
-                </ul>				
-            </div>
-            <p style="color:grey; text-align:right; position:relative; top:-80px; margin-bottom:-80px;">© Copyright 2015 Save Your Wheel</p>
-        </div><!-- /.container-fluid -->
-    </nav>
+    <nav class="navbar navbar-default navbar-inverse" style="border:none; position:relative; top:50px; min-height: 93px; margin-bottom:0; padding-bottom:0; border-radius: 0px 3px;">
+    <div class="container-fluid">
+    	<div id="Footer" style="z-index:1;">
+          <div class="Container">
+                <div class="btn-group">
+    				<a href="#" class="dropdown-toggle" data-toggle="dropdown" style="text-decoration: none;">Dropdown <b class="dropup"><b class="caret"></b></b></a>
+                    <ul class="dropdown-menu drop-up" role="menu">
+                        <li><a href="#">1 - 4 Intensity</a></li>
+                        <li><a href="#">4 - 8 Intensity</a></li>
+                        <li><a href="#">8 - 10 Intensity</a></li>
+                    </ul>
+                </div>
+          </div>
+        </div>
+    	<div class="col-md-12" align="center" style=" width: 100%; height:50px; position:relative; top:-25px; margin-bottom:-25px; z-index:2; padding:0px;">
+    		<ul class="social-network social-circle">
+    			<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"><img src="Image\Rss-icon.png" height="100%" width="100%"></i></a></li>
+    			<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"><img src="Image\Facebook-icon.png" height="100%" width="100%"></i></a></li>
+    			<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"><img src="Image\Twitter-icon.png" height="100%" width="100%"></i></a></li>
+    			<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"><img src="Image\Google-Plus-icon.png" height="100%" width="100%"></i></a></li>
+    			<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"><img src="Image\Linkedin-icon.png" height="100%" width="100%"></i></a></li>
+    		</ul>				
+    	</div>
+    	<p style="color:grey; text-align:right; position:relative; top:-80px; z-index:0; margin-bottom:-80px;">© Copyright 2015 Save Your Wheel</p>
+	</div><!-- /.container-fluid -->
+	</nav>
 </body>
 </html>  
